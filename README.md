@@ -2,7 +2,7 @@
 
 This Calculator dApp is built using [Sunodo](https://docs.sunodo.io/), a Cartesi "Rollups as a Service" platform. Sunodo provides a robust set of tools to streamline the development workflow of Cartesi applications. 
 
-This dApp is built with Python and uses the [Python Mathematical Expression Evaluator](https://pypi.org/project/py-expression-eval/) library for arithmetic calculations. The dApp processes arithmetic expressions encoded in hex format and returns the results as a notice in a similar format.
+It is written in Python and uses the [Python Mathematical Expression Evaluator](https://pypi.org/project/py-expression-eval/) library for arithmetic calculations. The dApp processes arithmetic expressions encoded in hex format and returns the results as a notice in a similar format.
 
 ## Requirements and Installation
 
