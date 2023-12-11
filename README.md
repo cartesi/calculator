@@ -1,6 +1,45 @@
 # Calculator dApp
 
-This calculator dApp is designed to provide basic arithmetic calculations within the Cartesi Rollups infrastructure using [Python Mathematical Expression Evaluator](https://pypi.org/project/py-expression-eval/) library. The dApp interprets hex-encoded arithmetic expressions, evaluates them, and returns the results as hex-encoded strings.
+This Calculator dApp is built using [Sunodo](https://docs.sunodo.io/), a Cartesi "Rollups as a Service" platform. Sunodo provides a robust set of tools to streamline the development workflow of Cartesi applications. 
+
+This dApp is built with Python and uses the [Python Mathematical Expression Evaluator](https://pypi.org/project/py-expression-eval/) library for arithmetic calculations. The dApp processes arithmetic expressions encoded in hex format and returns the results as a notice in a similar format.
+
+## Requirements and Installation
+
+The Sunodo CLI heavily uses Docker under the hood, so you must have it installed and up-to-date.
+
+The recommended way to have all plugins ready for building is to install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
+### macOS
+
+If you have [Homebrew](https://brew.sh/) installed, you can install Sunodo by running this command:
+
+```bash
+brew install sunodo/tap/sunodo
+```
+
+Alternatively, you can install Sunodo with Node.js by running:
+
+```bash
+npm install -g @sunodo/cli
+```
+
+### Linux
+
+You can either use [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-Linux), or install Sunodo with:
+
+```
+npm install -g @sunodo/cli
+```
+
+### Windows
+
+Install [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and the Ubuntu dsitro from Microsoft Store and install Sunodo with:
+
+```
+npm install -g @sunodo/cli
+```
+
 
 ## Building the application
 
